@@ -18,4 +18,5 @@
 - offers word from `You have 5 special offers` should be pluralized (on all languages) on the client side (1=offer, >1=offers, 0=no offers)
 - offers list should be preserved during navigation
 - as a plus: offers list scroll position is preserved during navigation
+- as a plus: lazy loading images while scrolling long list of offers
 

@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     margin: 0;
     color: #333;
@@ -10,8 +14,14 @@ body {
     line-height: 1.4;
 }
 
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -70px;
+    padding-bottom: 70px;
+}
+
 .center {
-    margin: 24px;
+    padding: 24px;
     text-align: center;
 }
 
@@ -124,4 +134,11 @@ body {
     border-radius: 50%;
     border: none;
     cursor: pointer;
+}
+
+footer {
+    background: #f3f3f3;
+    padding: 27px 12px;
+    font-size: 12px;
+    text-align: center;
 }
