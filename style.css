@@ -72,8 +72,14 @@ body {
 }
 
 .banner {
-    margin: 24px;
+    padding: 24px;
     font-size: 24px;
+    border-radius: 25px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    background: linear-gradient(155deg, rgba(255, 220, 229, 0.5), rgba(199, 229, 255, 0.5)) no-repeat;
+}
+
+.banner span {
     animation: blink 1s linear infinite;
 }
 
