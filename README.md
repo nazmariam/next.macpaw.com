@@ -3,9 +3,10 @@
 ## Both pages
 
 - should support localizations and language switching based on `translations` JSON files
-- should support loading localizations by chunks
+- should support loading localizations by chunks (do not load all string at page render)
 - should support JS code splitting
 - as a plus to support CSS code splitting
+- handle 500 / 404 errors (e.g. JSON file not loaded)
 
 ## [Products Page](products)
 
