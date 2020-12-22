@@ -1,2 +1,8 @@
-.DS_Store
+/node_modules
 .idea
+.DS_Store
+
+# next.js
+/.next/
+/out/
+/build

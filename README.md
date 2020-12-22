@@ -1,22 +1,30 @@
-# next.macpaw.com
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Both pages
+## Getting Started
 
-- should support localizations and language switching based on `translations` JSON files
-- should support loading localizations by chunks
-- should support JS code splitting
-- as a plus to support CSS code splitting
+First, run the development server:
 
-## [Products Page](products)
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-- render products.html based on one of two JSON data files: 50% page views should query `products-a`.json and other 50% are based on `products-b.json`
-- async loading one of two banner components - 40% or 90% based on 50/50 A/B client-side AB test (`Math.random`)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## [Store Page](store)
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-- render store.html with a dynamic `Add 1 more` and Remove from cart buttons (images are random)
-- offers word from `You have 5 special offers` should be pluralized (on all languages) on the client side (1=offer, >1=offers, 0=no offers)
-- offers list should be preserved during navigation
-- as a plus: offers list scroll position is preserved during navigation
-- as a plus: lazy loading images while scrolling long list of offers
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

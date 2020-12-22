@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: #333;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+#__next {
+  display: contents;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -70px;
+  padding-bottom: 70px;
+}
+
+.center {
+  padding: 24px;
+  text-align: center;
+}
